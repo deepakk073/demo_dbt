@@ -7,7 +7,7 @@ FROM
   `data-to-insights.ecommerce.all_sessions_raw`
 WHERE date = '20170801'
 GROUP BY productSKU
-ORDER BY total_ordered DES
+ORDER BY total_ordered DESc
 
 )
 
